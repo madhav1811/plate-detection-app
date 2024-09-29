@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Plate Detection</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Number Plate Detection</h1>
+  </header>
+
+  <section>
+    <h2>Upload an Image or Video</h2>
+    <form id="uploadForm">
+      <label for="fileUpload">Choose a file:</label>
+      <input type="file" id="fileUpload" name="file" accept="image/*,video/*">
+      <button type="submit">Upload</button>
+    </form>
+    <div id="result"></div>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>
